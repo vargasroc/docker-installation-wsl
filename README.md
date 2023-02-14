@@ -31,7 +31,11 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 In the Ubuntu Console run the following commands:
 
 ~~~
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - 
+~~~
+It's deprecated. Follow the next solution:
+~~~
+https://forums.docker.com/t/cant-install-docker-on-ubuntu-20-04/93058/3
 ~~~
 ~~~
 sudo apt-get update -y
